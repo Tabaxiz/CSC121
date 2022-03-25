@@ -13,9 +13,9 @@ COST_PER_MAGAZINE = 3.95
 SALES_TAX = 0.07
 
 # Get number of books selected for.
-paperback = (float(input('Enter the number of paperback books.')))
-hardback = (float(input('Enter the number of hardback books.')))
-magazine = (float(input('Enter the number of magazines.')))
+paperback = float(input('Enter the number of paperback books: '))
+hardback = float(input('Enter the number of hardback books: '))
+magazine = float(input('Enter the number of magazines: '))
 
 # Cost of books without sales tax.
 book_cost = ((COST_PER_PAPERBACK*paperback) +
